@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental clinic</title>
+    <link rel="shortcut icon" href="img/photo_2023-02-24_20-09-21.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/0761987330.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="carousel.js" defer></script>
+</head>
+
+<body>
+    <div id="menu" style="display: none;">
+        <nav class="nav-menu">
+            <div class="link">
+                <div class="closeBtn" onclick="toggleBlock()"></div>
+                <a href="#dentalCare">Dental Care</a>
+                <a href="#aboutUs">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#team">Our Team</a>
+                <a href="#technology">Technology</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+        </nav>
+    </div>
+    <div id="overlay" style="display: none;"></div>
+
+    <!--header-->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-name">
+                <img class="logo" src="img/photo_2023-02-24_20-09-21.png" alt="!">
+                <h1>DENTAL CLINIC</h1>
+            </div>
+            <button class="menu-btn" onclick="toggleBlock()">&#9776;</button>
+        </div>
+    </header><!--header-->
+
+    <section class="intro" id="dentalCare">
+        <div class="intro-name">
+            <div class="greeting-block">
+                <div class="greeting-text">
+                    <h1>dentist care</h1>
+                    <h3>Life changing,<br>one smile at a time</h3>
+                    <button>view more</button>
+                </div>
+            </div>
+        </div>
+        <div class="introPhoto"></div>
+    </section><!---intro-->
+
+    <!---card-block-->
+    <section class="card_block">
+        <div class="card_container">
+            <div class="card">
+                <img class="cardImage" src="img/tooth1.png" alt="!">
+                <h3>EXCELLENT SERVICES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                </p>
+            </div>
+            <div class="card">
+                <img class="cardImage" src="img/tooth2.png" alt="!">
+                <h3>GUARANTEED WORK</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                </p>
+            </div>
+            <div class="card">
+                <img class="cardImage" src="img/tooth3.png" alt="!">
+                <h3>DENTAL IMPLANT</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                </p>
+            </div>
+            <div class="card">
+                <img class="cardImage" src="img/tooth4.png" alt="!">
+                <h3>24/7 SERVICES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                </p>
+            </div>
+        </div> <!---card-container-->
+    </section><!---card-block-->
+
+    <!---invite-->
+    <section class="invite">
+        <div class="invite_container"><!---invite-container-->
+            <h1>Welcome to <b>DentalPlus</b></h1>
+            <div class="decorateLine"></div>
+            <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse
+                rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque
+                fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie
+                ipsum iaculis sit amet.</p>
+        </div><!---invite-container-->
+    </section><!---invite-->
+
+    <!---makeSmile-->
+    <section class="makeSmile">
+        <div class="make-container">
+            <div class="photoBlock">
+                <div class="photo-block-picture"></div>
+            </div><!---photoBlock-->
+            <div class="text-smile-block"><!---text-smile-block-->
+                <div class="toothPhoto"></div>
+                <div class="handp">
+                    <h1>Make the smile of your dreams a reality!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean
+                        massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                </div><!---handp-->
+                <div class="beforeAfter-block">
+                    <div class="textBA">
+                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
+                            ultrices
+                            mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris</p>
+                        <button>read more</button>
+                    </div>
+                    <div class="photoBA"></div>
+                </div><!---beforeAfter-block-->
+            </div><!---text-smile-block-->
+        </div><!---make-container-->
+    </section><!---makeSmile-->
+
+    <!---call-->
+    <section class="call">
+        <div class="call-container">
+            <h1>Make your dream smile a reality!</h1>
+            <p><i>Позвоните нам или запишитесь на прием сегодня</i></p>
+            <button>enroll</button>
+        </div><!---call-container-->
+    </section><!---call-->
+
+    <!---about-->
+    <section class="about" id="aboutUs">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About us</h2>
+                <h1>Excellent care for every patient.</h1>
+                <p><i>We provide a wide range of dental services and procedures to meet all of our patients' dental
+                        needs.
+                        Combining quality patient care with state-of-the-art technology, we are able to treat patients
+                        of
+                        all ages in a comfortable and relaxing environment.</i></p>
+                <button>read more</button>
+            </div><!---about-text-->
+            <div class="aboutPhoto"></div>
+            <div class="absPhoto"></div>
+        </div><!---about-container-->
+    </section><!---about-->
+
+    <!---gallery-->
+    <section class="gallery" id="gallery">
+        <div class="gallery-container">
+            <button class="CarouselBtn prev" onclick="onPrev()">&#8249;</button>
+            <div class="gallery-carousel"><!---carousel-->
+                <div id="modal">
+                    <img id="modal-image" src="#" alt="!">
+                </div>
+                <div class="slide" data-active><!---1 block)-->
+                    <img src="img/galleryPicture1.jpg" alt="!">
+                    <img src="img/galleryPicture2.jpg" alt="!">
+                    <img src="img/galleryPicture3.jpg" alt="!">
+                    <img src="img/galleryPicture4.jpg" alt="!">
+                    <div class="slide-text">
+                        <h2>Our<br>Gallery</h2>
+                        <button>read more</button>
+                    </div>
+                </div><!---slide-->
+                <div class="slide"><!---2 block)-->
+                    <img src="img/galleryPicture4.jpg" alt="!">
+                    <img src="img/galleryPicture5.jpg" alt="!">
+                    <img src="img/galleryPicture6.jpg" alt="!">
+                    <img src="img/galleryPicture7.jpg" alt="!">
+                    <img src="img/galleryPicture1.jpg" alt="!">
+                </div>
+            </div><!---gallery-carousel-->
+            <button class="CarouselBtn next" onclick="onNext()">&#8250;</button>
+        </div> <!---gallery-container-->
+    </section> <!---gallery-->
+    <script src="fullScreenPicture.js"></script>
+
+    <!---care-->
+    <section class="care" id="technology">
+        <div class="care-container">
+            <div class="care-photo"></div>
+            <div class="absolute-t-pic"></div>
+            <div class="care-text">
+                <h1>Quality patient care using the latest technology</h1>
+                <p>-General and preventive dentistry<br>
+                    -Cosmetic dentistry with teeth whitening and veneers<br>
+                    -TMJ treatment<br>
+                    -Endodontics<br>
+                    -Orthodontics Invisalign®<br>
+                    -Periodontology<br>
+                    -Dentistry Restorations on implants, crowns, bridges and dentures
+                </p>
+                <button>read more</button>
+            </div><!---care-text-->
+        </div><!---care-container-->
+    </section><!---care-->
+
+    <!---our-service-->
+    <section class="our-service">
+        <div class="service-container">
+            <h3>OUR SERVICES</h3>
+            <h1>We love white teeth</h1>
+            <div class="service-card">
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>24/7 SERVICE</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>GOOD CHAMBER</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>TREATMENT OF TEETH</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>DENTAL IMPLANT</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>WHITE FILL</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+                <div class="ourCard">
+                    <div class="card-container">
+                        <h4>DENTAL PROSTHESIS</h4>
+                        <p>Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at
+                            sodales eros laoreet a.
+                            Quisque facilisis lorem augue, sit amet</p>
+                    </div>
+                </div>
+            </div><!---service-card-->
+        </div><!---service-container-->
+    </section><!---our-service-->
+
+    <!---team-->
+    <section class="team" id="team">
+        <div class="team-container">
+            <h1>Our team</h1>
+            <h3>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit
+                ultrices.</h3>
+            <div class="card-team">
+                <div class="tcard">
+                    <div class="photo1"></div>
+                    <h2>Dr. Jessica Taylor</h2>
+                    <h3>Surgeon-dentist-implantologist</h3>
+                </div>
+                <div class="tcard">
+                    <div class="photo2"></div>
+                    <h2>Dr. Brian Adam</h2>
+                    <h3>Restorative dentist</h3>
+                </div>
+                <div class="tcard">
+                    <div class="photo3"></div>
+                    <h2>Dr. Linda Feldmanr</h2>
+                    <h3>Cosmetic stomatologist-surgeon</h3>
+                </div>
+            </div><!---card-team-->
+        </div><!---team-container-->
+    </section><!---team-->
+
+    <!---footer-->
+    <footer class="footer" id="contacts">
+        <div class="footer-container">
+            <p>2023 created by Artem Slobodian</p>
+            <div class="links">
+                <i class="fa-brands fa-twitter"><a href="#"></a></i>
+                <i class="fa-brands fa-facebook-f"><a href="#"></a></i>
+                <i class="fa-brands fa-instagram"><a href="#"></a></i>
+                <i class="fa-solid fa-info"><a href="#"></a></i>
+            </div><!---links-->
+        </div><!---footer-container-->
+    </footer><!---footer-->
+</body>
+
+</html>
